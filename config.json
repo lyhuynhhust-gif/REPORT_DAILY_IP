@@ -1,0 +1,73 @@
+{
+  "output_folder": "D:\\IPSS REPORT\\DATA BASE",
+  "report_filename_prefix": "IPSS_DAILY_REPORT",
+  "week_start_day": 4,
+  "week_start_label": "Thứ 6",
+  "email": {
+    "from": "",
+    "to": [],
+    "cc": [],
+    "subject_template": "[IPSS Daily Report] {date}",
+    "body_template": "Kính gửi,\n\nBáo cáo sản xuất IPSS ngày {date}:\n\n📥 Input IPSS: {input_ipss} wafers\n🚢 EPI Shipment: {shipment} wafers\n📊 PR RW Rate: {pr_rw_rate}%\n🔄 Total Movement: {total_move} wafers\n📦 Total WIP: {total_wip} wafers\n\nVui lòng xem file đính kèm để biết chi tiết.\n\nTrân trọng,\n{sender_name}",
+    "sender_name": "IPSS Report System",
+    "schedule_time": "08:00",
+    "auto_send": false
+  },
+  "chart_days_daily": 30,
+  "steps": [
+    "E1100",
+    "E1500",
+    "E2000",
+    "E2010",
+    "E3150",
+    "E3153",
+    "E3157",
+    "E3160",
+    "E3170",
+    "E3250",
+    "E3300",
+    "E3400",
+    "E3430",
+    "E3500"
+  ],
+  "step_names": {
+    "E1100": "Initial Cleanup",
+    "E1500": "DI Rinse",
+    "E2000": "SiO2 Deposition",
+    "E2010": "SiO2 Thickness Meas.",
+    "E3100": "DI Rinse (Legacy)",
+    "E3150": "Photo Coating",
+    "E3153": "Photo Exposure",
+    "E3157": "Photo Development",
+    "E3160": "Photo Dev. Inspection",
+    "E3170": "AOI Inspection",
+    "E3250": "PSS Etch",
+    "E3300": "PR Cleaning",
+    "E3400": "AOI Inspection 2",
+    "E3430": "ALN Deposition",
+    "E3500": "PSS BANK"
+  },
+  "raw_folders": {
+    "hold_history": "\\\\172.16.102.82\\fab_chip\\04. FAB TECH PHOTO\\01. PHOTO PROCESS\\01. MEMBER\\700301_NGUYEN LY HUYNH\\2026\\YMS DATA\\IPSS\\RAW_HOLD HISTORY",
+    "wip": "\\\\172.16.102.82\\fab_chip\\04. FAB TECH PHOTO\\01. PHOTO PROCESS\\01. MEMBER\\700301_NGUYEN LY HUYNH\\2026\\YMS DATA\\IPSS\\RAW_WIP",
+    "move": "\\\\172.16.102.82\\fab_chip\\04. FAB TECH PHOTO\\01. PHOTO PROCESS\\01. MEMBER\\700301_NGUYEN LY HUYNH\\2026\\YMS DATA\\IPSS\\RAW_MOVEMENT",
+    "input": "\\\\172.16.102.82\\fab_chip\\04. FAB TECH PHOTO\\01. PHOTO PROCESS\\01. MEMBER\\700301_NGUYEN LY HUYNH\\2026\\YMS DATA\\IPSS\\RAW_INPUT"
+  },
+  "raw_patterns": {
+    "hold_history": "*HOLD*",
+    "wip": "*WIP*",
+    "move": "*MOVE*",
+    "input": "*INPUT*"
+  },
+  "template_file": "D:\\IPSS REPORT\\DATA BASE\\20260415_IPSS_DAILY_REPORT_V03.xlsx",
+  "single_file_path": "",
+  "raw_paths": {
+    "hold_history": "\\\\172.16.102.82\\fab_chip\\04. FAB TECH PHOTO\\01. PHOTO PROCESS\\01. MEMBER\\700301_NGUYEN LY HUYNH\\2026\\YMS DATA\\IPSS\\RAW_HOLD HISTORY\\2026-04-16_RAW_HOLD HISTORY.xlsx",
+    "wip": "\\\\172.16.102.82\\fab_chip\\04. FAB TECH PHOTO\\01. PHOTO PROCESS\\01. MEMBER\\700301_NGUYEN LY HUYNH\\2026\\YMS DATA\\IPSS\\RAW_WIP\\2026-04-16_RAW_WIP.xlsx",
+    "move": "\\\\172.16.102.82\\fab_chip\\04. FAB TECH PHOTO\\01. PHOTO PROCESS\\01. MEMBER\\700301_NGUYEN LY HUYNH\\2026\\YMS DATA\\IPSS\\RAW_MOVEMENT\\2026-04-16_RAW_MOVEMENT.xlsx",
+    "input": "\\\\172.16.102.82\\fab_chip\\04. FAB TECH PHOTO\\01. PHOTO PROCESS\\01. MEMBER\\700301_NGUYEN LY HUYNH\\2026\\YMS DATA\\IPSS\\RAW_INPUT\\2026-04-16_RAW_INPUT.xlsx"
+  },
+  "report_prefix": "IPSS_DAILY_REPORT_V03",
+  "chart_days": 30,
+  "df_rate_limit": 15
+}

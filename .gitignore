@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pycache
+
+# Backup files
+*.bak
+
+# Temp / scratch
+scratch/
+Nhan
+Truy
+
+# IDE
+.vscode/
+.idea/
+
+# Tất cả Excel trong DATA BASE — chỉ giữ file ngày 24
+DATA BASE/20260415_*.xlsx
+DATA BASE/20260416_*.xlsx
+DATA BASE/20260417_*.xlsx
+DATA BASE/20260418_*.xlsx
+DATA BASE/20260419_*.xlsx
+DATA BASE/20260420_*.xlsx
+DATA BASE/20260421_*.xlsx
+DATA BASE/20260422_*.xlsx
+DATA BASE/20260423_*.xlsx
+
+# Thư mục reports (output hàng ngày — không cần push)
+reports/
+
+# Push script (chứa token — không push lên)
+push_to_github.bat
