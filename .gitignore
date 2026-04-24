@@ -33,3 +33,6 @@ reports/
 
 # Push script (chứa token — không push lên)
 push_to_github.bat
+
+# Backup của hiền đệ
+.git_backup/
